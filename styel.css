@@ -1,0 +1,293 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    height: 90px;
+    width: 100px;
+}
+.menubar{
+    display: flex;
+    height: 100PX;
+    background-color:white;
+    padding: 10px;
+   
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 26px;
+}
+.menu>ul>li{
+    float: left;
+    
+
+}
+.dropdown{
+    display:none;
+    position: absolute;
+}
+.dropdown a:hover{
+    background-color: rgb(250, 153, 8);
+    padding: 10px;
+    border-radius: 10px;
+}
+nav>ul>li:hover>ul{
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(30, 28, 28, 0.518);
+}
+.menu{
+    padding-left: 50px;
+}
+nav>ul>li>a:hover{
+    background-color: rgb(250, 153, 8) ;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.DONET{
+    background-color: rgba(173, 116, 8, 0.808);
+    padding: 5px;
+    border: 2px solid  rgba(173, 116, 8, 0.808);
+    border-radius: 5px;
+}
+.main{
+    background-image: url(./homecon.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.connet{
+    font-size: 100px;
+    color: white;
+}
+.conten{
+    display: flex;
+    text-align: center;
+}
+.connet2{
+    font-size: 40px ;
+    color: white;
+}
+.donet{
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 170px;
+    text-align: center;  
+}
+.edit{
+    color: aliceblue;
+    border: 2px solid rgb(173, 115, 8);
+    background-color: rgb(173, 115, 8) ;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+} 
+.box{
+    background-color: rgb(80, 60, 8);
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    padding: 30px;
+} 
+.imeg{
+    height: 270px;
+    width: 270px;
+    padding-left: 100px;
+    
+}
+.weiten{
+    font-size: 20px;
+    padding-left: 100px;
+}
+.box2{
+    height:200px;
+    width: 1200px;
+    background-color: lightgray;
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.div1{
+    width: 30%;
+}
+.ourvalues{
+    padding-left: 50px;
+}
+.box-3{
+    width: 30%;
+    height: 200px;
+    font-size: 2opx;
+}
+.no-profit{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.box3{
+    display: flex;
+    text-align: center;
+    padding: 100px;
+    background-color: antiquewhite;
+    padding-right: 100px;
+    text-align: left;
+    
+   
+}
+.box4{
+    height: 200px;
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    padding-left: 400px;
+
+}
+.writen2{
+    text-align: center;
+    padding-left: 100px;
+}
+.box5{
+    display: flex;
+    padding: 50px;
+    text-align: center;
+
+}
+.house{
+    border-radius: 50%;
+}
+.sine{
+    height: 50px;
+    width: 50px;
+}
+.lastimg{
+    text-align: center;
+}
+.cascriv{
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(79, 39, 11, 0.71);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 200px;
+}
+.input{
+    padding-left: 200px;
+    font: 900;
+}
+.subscribe2{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    padding: ;
+    border-radius: 10px;
+}
+.last-dive{
+    padding-left: 50px;
+    padding: 10px;
+    display: flex;
+}
+.give-help{
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.give-help:hover{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+    
+}
+.need-help{
+    padding-left: 30px;
+    font-size: 30px;
+    color:orange;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid orange;
+}
+.need-help:hover{
+    background-color: orange;
+    color: white;
+}
+.contactinfo{
+    padding: 20px;
+    padding-left: 70px;
+    font-size: 40px;
+   
+}
+.lastperagrph{
+    width: 60%;
+    padding-left: 20px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.553);
+}
+.lastimg2{
+    height: 20px;
+    width: 20px;
+}
+.sharebuit{
+    display: flex;
+}
+.lastimg3{
+    height: 200px;
+    width: 230px;
+    padding-left: 10px;
+}
+.inicon{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 2px;
+}
+.hudai{
+    height: 120px;
+    width: 5px;
+    color: black;
+}
+.lastperagrph2{
+    padding:10px;
+    font-size: 19px;
+    display: flex;
+}
+.siammolla{
+    padding-left: 20px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.siammolla2{
+    padding-left: 10px;
+}
+.Privacy{
+    padding-left: 10px;
+    text-decoration: none;
+    color: orange;
+}
+
+
+
